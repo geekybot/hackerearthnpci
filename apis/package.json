@@ -1,0 +1,34 @@
+{
+  "name": "hackerearth",
+  "version": "1.0.0",
+  "description": "hackerearth hiring challenge for job post at NPCI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekybot/hackerearthnpci.git"
+  },
+  "keywords": [
+    "npci",
+    "hackerearth",
+    "banking"
+  ],
+  "author": "Utpal Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekybot/hackerearthnpci/issues"
+  },
+  "homepage": "https://github.com/geekybot/hackerearthnpci#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-bearer-token": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.2",
+    "web3": "^1.0.0-beta.51"
+  }
+}
